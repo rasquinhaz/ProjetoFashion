@@ -1,0 +1,159 @@
+body{
+    margin: 8vh auto;
+    width: 75%;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Parte do Header no TOPO */
+
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 8px;
+    background-color: rgba(8,26,36,255);
+}
+.logo{
+    display: flex;
+    margin-top: -5px;
+    margin-left: 20vh;
+}
+.menu{
+    display: flex;
+    margin: 0;
+}
+.menu li{
+    margin-right: 35px;
+    list-style: none;
+}
+.menu a{
+    text-decoration: none;
+    font-size: .8rem;
+    letter-spacing: 2px;
+    color: rgb(61, 92, 122);  
+}
+/* rgba(34,62,74,255) */
+.menu a:hover{
+    color: white;
+    transition: linear .8s;
+}
+.imagem-banner{
+    width: 100%;
+}
+
+/* Final da parte do Header no TOPO */
+
+/* Parte escrita da Classe MODA */
+.moda{
+    margin: 15vh auto;
+    width: 80%;
+}
+.desc{
+    margin: 0 0 15vh 0;
+
+}
+.new{
+    text-align: center;
+    font-weight: 900;
+    font-size: 2.3rem;
+}
+.new-text{
+    text-align: center;
+    line-height: 2rem;
+    color: rgb(112, 110, 110);
+}
+
+/* Parte escrita da Classe MODA */
+
+/* Parte Visual da moda ABAIXO */
+.modelos{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    letter-spacing: 1.7px;
+    
+}
+
+.modelos img{
+    width: 90%;
+}
+.modelos p{
+    font-size: .8rem;
+    color: rgba(165,161,168,255);
+}
+
+.modelos h3{
+    font-size: 1rem;
+}
+
+.modelos h3, p{
+    margin: 0;
+}
+/* Parte Visual da Moda ACIMA */
+
+
+.poetry{
+    background-color: rgba(0,60,81,255);
+    background-image: url(/bg_detalhe.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    color: white;
+    width: 100%;
+    height: 80vh;
+    margin: 15vh auto;
+    margin-bottom: 2rem;
+    
+    
+}
+/* ----------------------------------------------------- */
+/* Poetry Section abaixo... */
+.content{
+    padding: 50px;
+    padding-left: 90px;
+}
+.poetry p{
+    width: 50%;
+    font-size: .9rem;   
+}
+
+/* Poetry Section Acima */
+/* ----------------------------------------------------- */
+
+
+/* Contato Section abaixo */
+
+.contact{
+    color: rgba(0,60,81,255);
+    text-align: center;
+}
+
+.call{
+    margin: 0;
+    line-height: 2rem;
+    text-transform: uppercase;
+}
+.call-number{
+    margin: 0;
+    margin-bottom: 2rem;
+}
+
+/* Contato Section acima */
+
+/* ----------------------------------------------------- */
+
+/* Rodape FOOTER PART */
+
+.rodape{
+    background-color: rgba(0,16,24,255);
+    font-size: .8rem;
+    color: rgba(44,96,128,255);
+    margin: 5vh auto;
+    padding: 20px;
+    text-align: center;
+    
+}
+.rodape p{
+    letter-spacing: .3rem;
+}
